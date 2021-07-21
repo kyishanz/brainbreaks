@@ -114,34 +114,37 @@
                                 </userDefinedRuntimeAttributes>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a1y-r4-UOS">
-                                <rect key="frame" x="58" y="365" width="129" height="58"/>
+                                <rect key="frame" x="58" y="371" width="129" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="water"/>
+                                <state key="normal" title="Button" image="WATERR"/>
+                                <connections>
+                                    <segue destination="52w-sf-4VM" kind="show" id="jH9-eF-1kG"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hwf-PP-6oW">
-                                <rect key="frame" x="206" y="365" width="178" height="58"/>
+                                <rect key="frame" x="210" y="371" width="172" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="eye breaks"/>
+                                <state key="normal" title="Button" image="EYEBREAKS"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5OT-jB-j8u">
-                                <rect key="frame" x="127" y="425" width="161" height="58"/>
+                                <rect key="frame" x="138" y="425" width="139" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="schedule"/>
+                                <state key="normal" title="Button" image="SCHEDULE-1"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wbU-3r-NNH">
-                                <rect key="frame" x="45" y="480" width="154" height="66"/>
+                                <rect key="frame" x="47" y="483" width="150" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="exercise"/>
+                                <state key="normal" title="Button" image="EXERCISE-1"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Kw-GB-Vno">
-                                <rect key="frame" x="217" y="482" width="122" height="62"/>
+                                <rect key="frame" x="227" y="483" width="122" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="relax"/>
+                                <state key="normal" title="Button" image="RELAX-1"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G5K-CF-iOU">
-                                <rect key="frame" x="121" y="543" width="172" height="58"/>
+                                <rect key="frame" x="121" y="541" width="172" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="resources"/>
+                                <state key="normal" title="Button" image="RESOURCES-1"/>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="tO1-Ox-JLA"/>
@@ -153,18 +156,64 @@
             </objects>
             <point key="canvasLocation" x="663.768115942029" y="77.678571428571431"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="0Pv-6m-1ZU">
+            <objects>
+                <viewController id="52w-sf-4VM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="cob-aq-TK1">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8cI-ag-h9o">
+                                <rect key="frame" x="89" y="338" width="236" height="23"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="R E M I N D  M E  E V E R Y...">
+                                        <attributes>
+                                            <font key="NSFont" size="19" name="HelveticaNeue-Thin"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="8" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0Fn-8O-OpS">
+                                <rect key="frame" x="159" y="404" width="97" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="WATERR" translatesAutoresizingMaskIntoConstraints="NO" id="0IO-DS-Im7">
+                                <rect key="frame" x="114" y="243" width="186" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="hED-S2-Cu1"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Va7-22-Zgv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1308.6956521739132" y="77.678571428571431"/>
+        </scene>
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="nIa-Um-NAc"/>
     </inferredMetricsTieBreakers>
     <resources>
+        <image name="EXERCISE-1" width="1044" height="330"/>
+        <image name="EYEBREAKS" width="1140" height="318"/>
+        <image name="RELAX-1" width="854" height="342"/>
+        <image name="RESOURCES-1" width="1256" height="346"/>
+        <image name="SCHEDULE-1" width="1118" height="344"/>
         <image name="Screen Shot 2021-07-20 at 7.24.14 PM" width="234" height="458"/>
-        <image name="exercise" width="154" height="66"/>
-        <image name="eye breaks" width="182" height="62"/>
-        <image name="relax" width="124" height="62"/>
-        <image name="resources" width="180" height="58"/>
-        <image name="schedule" width="166" height="58"/>
-        <image name="water" width="124" height="58"/>
+        <image name="WATERR" width="952" height="326"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
