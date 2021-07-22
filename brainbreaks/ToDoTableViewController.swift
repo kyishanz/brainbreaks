@@ -43,7 +43,7 @@ class ToDoTableViewController: UITableViewController {
     let toDo = toDos[indexPath.row]
     if let name = toDo.name {
      if toDo.important {
-      cell.textLabel?.text = ":exclamation:️" + name
+      cell.textLabel?.text = "❗️" + name
      } else {
       cell.textLabel?.text = toDo.name
      }

@@ -1,15 +1,13 @@
 //
 //  ToDo.swift
-//  brainbreaks
+//  todo list
 //
-//  Created by Lelani Do on 7/22/21.
+//  Created by Kaitlyn Zhang on 7/19/21.
 //
 
 import UIKit
 
 class ToDo {
-   var name = ""
+    var name = ""
+    var important = false
 }
-
-var newToDo = ToDo()
-print(newToDo)
