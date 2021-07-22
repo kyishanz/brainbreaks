@@ -16,6 +16,8 @@
 		C8A6B2DB26A76AA3002C1FD2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8A6B2D926A76AA3002C1FD2 /* LaunchScreen.storyboard */; };
 		C8A6B2E626A76AA3002C1FD2 /* brainbreaksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A6B2E526A76AA3002C1FD2 /* brainbreaksTests.swift */; };
 		C8A6B2F126A76AA3002C1FD2 /* brainbreaksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A6B2F026A76AA3002C1FD2 /* brainbreaksUITests.swift */; };
+		D749A5FE26A9F57300AE8321 /* ToDoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D749A5FD26A9F57300AE8321 /* ToDoTableViewController.swift */; };
+		D749A60226A9F5FB00AE8321 /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D749A60126A9F5FB00AE8321 /* ToDo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		C8A6B2EC26A76AA3002C1FD2 /* brainbreaksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = brainbreaksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8A6B2F026A76AA3002C1FD2 /* brainbreaksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = brainbreaksUITests.swift; sourceTree = "<group>"; };
 		C8A6B2F226A76AA3002C1FD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D749A5FD26A9F57300AE8321 /* ToDoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoTableViewController.swift; sourceTree = "<group>"; };
+		D749A60126A9F5FB00AE8321 /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +109,8 @@
 				C8A6B2CD26A76AA1002C1FD2 /* SceneDelegate.swift */,
 				C8A6B2CF26A76AA1002C1FD2 /* ViewController.swift */,
 				C8A6B2D126A76AA1002C1FD2 /* Main.storyboard */,
+				D749A60126A9F5FB00AE8321 /* ToDo.swift */,
+				D749A5FD26A9F57300AE8321 /* ToDoTableViewController.swift */,
 				C8A6B2D726A76AA3002C1FD2 /* Assets.xcassets */,
 				C8A6B2D926A76AA3002C1FD2 /* LaunchScreen.storyboard */,
 				C8A6B2DC26A76AA3002C1FD2 /* Info.plist */,
@@ -264,7 +270,9 @@
 				C8A6B2D626A76AA1002C1FD2 /* brainbreaks.xcdatamodeld in Sources */,
 				C8A6B2D026A76AA1002C1FD2 /* ViewController.swift in Sources */,
 				C8A6B2CC26A76AA1002C1FD2 /* AppDelegate.swift in Sources */,
+				D749A60226A9F5FB00AE8321 /* ToDo.swift in Sources */,
 				C8A6B2CE26A76AA1002C1FD2 /* SceneDelegate.swift in Sources */,
+				D749A5FE26A9F57300AE8321 /* ToDoTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
