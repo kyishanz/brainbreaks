@@ -441,7 +441,7 @@
                     <navigationItem key="navigationItem" title="✅  TO DO LIST" id="RRA-DB-g7C">
                         <barButtonItem key="leftBarButtonItem" image="left-arrow" style="plain" id="fs5-p1-L9P">
                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="Vvg-tp-IvS">
-                                <rect key="frame" x="371" y="13" width="0.0" height="30"/>
+                                <rect key="frame" x="20" y="13" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </button>
                         </barButtonItem>
@@ -488,16 +488,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Name of todo goes here" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XVp-53-Wey">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Name of todo goes here" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XVp-53-Wey">
                                 <rect key="frame" x="86" y="259" width="254" height="31"/>
-                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="22"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dON-0M-vGL">
-                                <rect key="frame" x="130" y="414" width="154" height="34"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                <state key="normal" title="Mark as completed"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dON-0M-vGL">
+                                <rect key="frame" x="106" y="450" width="202" height="57"/>
+                                <state key="normal" title="Mark as completed" image="schedule-complete"/>
                                 <connections>
                                     <action selector="completeTapped:" destination="BXV-32-9he" eventType="touchUpInside" id="UWX-9v-3Ck"/>
                                 </connections>
@@ -519,7 +518,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UGz-DO-b5G" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4819" y="801"/>
+            <point key="canvasLocation" x="4818.840579710145" y="800.89285714285711"/>
         </scene>
         <!--Add To Do View Controller-->
         <scene sceneID="6VP-Io-Uhy">
@@ -529,14 +528,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Title:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9gk-BX-ONr">
-                                <rect key="frame" x="183" y="286" width="49" height="31"/>
-                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="22"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textField opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="az2-fH-Clr">
-                                <rect key="frame" x="191" y="342" width="32" height="34"/>
+                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="az2-fH-Clr">
+                                <rect key="frame" x="124" y="340" width="166" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="34" id="Jkf-iV-xJM"/>
                                     <constraint firstAttribute="width" constant="270" id="NED-mr-JEU"/>
@@ -544,42 +537,47 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="1Xu-Ae-eQL">
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="1Xu-Ae-eQL">
                                 <rect key="frame" x="183" y="485" width="51" height="31"/>
                             </switch>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Important:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9ae-vd-KbK">
-                                <rect key="frame" x="156" y="428" width="103" height="31"/>
-                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="22"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="I M P O R T A N T" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9ae-vd-KbK">
+                                <rect key="frame" x="109" y="424" width="197" height="31"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w1r-z1-8CT">
-                                <rect key="frame" x="191" y="576" width="33" height="34"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                <state key="normal" title="Add"/>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w1r-z1-8CT">
+                                <rect key="frame" x="147" y="568" width="120" height="60"/>
+                                <state key="normal" title="Add" image="schedule-set"/>
                                 <connections>
                                     <action selector="addTapped:" destination="xnF-sG-ikZ" eventType="touchUpInside" id="dnB-ux-4b2"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="schedule-head" translatesAutoresizingMaskIntoConstraints="NO" id="cbf-dW-oK6">
+                                <rect key="frame" x="67" y="128" width="282" height="99"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="E V E N T  N A M E?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="06F-wm-co8">
+                                <rect key="frame" x="59" y="284" width="299" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Xup-eC-gyS"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="9ae-vd-KbK" firstAttribute="top" secondItem="az2-fH-Clr" secondAttribute="bottom" constant="52" id="59B-vb-tSk"/>
-                            <constraint firstItem="az2-fH-Clr" firstAttribute="top" secondItem="9gk-BX-ONr" secondAttribute="bottom" constant="25" id="7eZ-dJ-PRS"/>
                             <constraint firstItem="9ae-vd-KbK" firstAttribute="centerX" secondItem="Xup-eC-gyS" secondAttribute="centerX" id="8qs-Iw-Hhl"/>
                             <constraint firstItem="w1r-z1-8CT" firstAttribute="centerX" secondItem="Xup-eC-gyS" secondAttribute="centerX" id="C25-OI-MD2"/>
-                            <constraint firstItem="9gk-BX-ONr" firstAttribute="top" secondItem="Xup-eC-gyS" secondAttribute="top" constant="200" id="Dft-hx-27f"/>
-                            <constraint firstItem="9gk-BX-ONr" firstAttribute="leading" relation="lessThanOrEqual" secondItem="Xup-eC-gyS" secondAttribute="leading" constant="189" id="FIS-NJ-79l"/>
                             <constraint firstItem="9ae-vd-KbK" firstAttribute="leading" relation="lessThanOrEqual" secondItem="Xup-eC-gyS" secondAttribute="leading" constant="162" id="LOn-7K-fbo"/>
                             <constraint firstItem="Xup-eC-gyS" firstAttribute="trailing" secondItem="az2-fH-Clr" secondAttribute="trailing" constant="79" id="QFH-Zc-ieC"/>
-                            <constraint firstItem="Xup-eC-gyS" firstAttribute="trailing" relation="lessThanOrEqual" secondItem="9gk-BX-ONr" secondAttribute="trailing" constant="189" id="Qyg-d0-6ym"/>
                             <constraint firstItem="1Xu-Ae-eQL" firstAttribute="top" secondItem="9ae-vd-KbK" secondAttribute="bottom" constant="26" id="X2l-ia-XY6"/>
                             <constraint firstItem="w1r-z1-8CT" firstAttribute="top" secondItem="1Xu-Ae-eQL" secondAttribute="bottom" constant="60" id="Zt8-XR-W24"/>
                             <constraint firstItem="Xup-eC-gyS" firstAttribute="trailing" relation="lessThanOrEqual" secondItem="9ae-vd-KbK" secondAttribute="trailing" constant="162" id="az3-n7-YGa"/>
                             <constraint firstItem="az2-fH-Clr" firstAttribute="leading" secondItem="Xup-eC-gyS" secondAttribute="leading" constant="79" id="hPB-Xs-a5x"/>
                             <constraint firstItem="1Xu-Ae-eQL" firstAttribute="centerX" secondItem="Xup-eC-gyS" secondAttribute="centerX" id="jSe-W7-Ypa"/>
-                            <constraint firstItem="9gk-BX-ONr" firstAttribute="centerX" secondItem="Xup-eC-gyS" secondAttribute="centerX" id="pZg-UC-hWg"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="YWC-qN-XoJ"/>
@@ -590,7 +588,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TzS-jQ-BQK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5641" y="78"/>
+            <point key="canvasLocation" x="5640.579710144928" y="77.678571428571431"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
@@ -608,6 +606,9 @@
         <image name="exercise-SET" width="576" height="234"/>
         <image name="eyebreaks-SET" width="680" height="256"/>
         <image name="left-arrow" width="512" height="512"/>
+        <image name="schedule-complete" width="1370" height="376"/>
+        <image name="schedule-head" width="1484" height="374"/>
+        <image name="schedule-set" width="636" height="254"/>
         <image name="water-SET" width="630" height="260"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
